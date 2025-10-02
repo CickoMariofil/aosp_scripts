@@ -25,4 +25,5 @@ lunch
 lunch aosp_cf_x86_64_phone-ap2a-eng
 #build_build_var_cache
 #lunch
+make bacon - recovery .zip 
 ```
