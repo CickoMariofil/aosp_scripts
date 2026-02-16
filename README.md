@@ -1,7 +1,9 @@
 # aosp_scripts
+```
 lunch voltage_fuxi-bp4a-userdebug
-breakfast device (fuxi)
-brunch device (fuxi)
+breakfast device (fuxi) - preparation
+brunch device (fuxi) - building zip
+```
 
 Helper scripts
 
