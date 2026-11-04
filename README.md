@@ -10,6 +10,16 @@ ln -s /run/media/mario/andro/fuxi/fuxi-trees/kernel/xiaomi/sm8550-devicetrees/ k
 ln -s /run/media/mario/andro/fuxi/fuxi-trees/kernel/xiaomi/sm8550-modules/ kernel/xiaomi/sm8550-modules
 ln -s /run/media/mario/andro/fuxi/fuxi-trees/vendor/xiaomi/sm8550-common/ vendor/xiaomi/sm8550-common
 ln -s /run/media/mario/andro/fuxi/fuxi-trees/vendor/xiaomi/fuxi/ vendor/xiaomi/fuxi
+
+
+# Clear out build and release configs cache
+rm -rf out/soong/release_configs/
+rm -rf out/.module-list*
+
+# Re-source and run lunch
+source build/envsetup.sh
+source vendor/voltage/vendorsetup.sh
+lunch voltage_fuxi-cp2a-userdebug
 ```
 
 ```
