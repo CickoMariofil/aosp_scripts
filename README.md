@@ -1,5 +1,16 @@
 # aosp_scripts
 
+### symlink device/kernel/vendor repos
+
+ln -s /run/media/mario/andro/fuxi/fuxi-trees/device/fuxi device/xiaomi/fuxi
+ln -s /run/media/mario/andro/fuxi/fuxi-trees/device/sm8550-common device/xiaomi/sm8550-common
+ln -s /run/media/mario/andro/fuxi/fuxi-trees/kernel/xiaomi/sm8550 kernel/xiaomi/sm8550
+ln -s /run/media/mario/andro/fuxi/fuxi-trees/kernel/xiaomi/sm8550-devicetrees/ kernel/xiaomi/sm8550-devicetrees
+ln -s /run/media/mario/andro/fuxi/fuxi-trees/kernel/xiaomi/sm8550-modules/ kernel/xiaomi/sm8550-modules
+ln -s /run/media/mario/andro/fuxi/fuxi-trees/vendor/xiaomi/sm8550-common/ vendor/xiaomi/sm8550-common
+ln -s /run/media/mario/andro/fuxi/fuxi-trees/vendor/xiaomi/fuxi/ vendor/xiaomi/fuxi
+
+
 ```
 lunch voltage_fuxi-bp4a-userdebug
 breakfast device (fuxi) - preparation
