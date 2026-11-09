@@ -19,6 +19,7 @@ rm -rf out/.module-list*
 # Re-source and run lunch
 source build/envsetup.sh
 source vendor/voltage/vendorsetup.sh
+export TARGET_RELEASE=cp2a
 lunch voltage_fuxi-cp2a-userdebug
 ```
 
